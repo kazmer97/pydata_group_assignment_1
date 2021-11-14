@@ -51,6 +51,7 @@ ma_252 = moving_average(prices, 252)
 ## e
 
 ma_252[251:253]
+### First moving average is 119.15963196031755
 
 ## f
 
@@ -128,6 +129,8 @@ print("The annualized standard deviation is:", sigmaR_annual)
 print("The daily standard deviation is", sigmaR)
 print("The sharpe ratio is:", SR)
 print("Daily mean log Return is:",muR)
+### Sharpe ratio is around 0.12, which is smaller than 1, 
+### so consider as sub-optimal and not a good investment
 
 ## h
 
