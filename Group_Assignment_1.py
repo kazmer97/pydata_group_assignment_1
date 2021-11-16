@@ -62,8 +62,10 @@ plt.figure(figsize=(12,8))
 plt.plot(prices,'-go', label='Prices')
 plt.plot(ma_252, 'b-', label = "ma_252")
 plt.plot(ma_60, 'm-', label = "ma_60")
-plt.title('Boeing 252-day Moving Average', fontsize = 20) plt.xlabel('Time Step', fontsize = 15)
-plt.ylabel('Adjusted Closing Price', fontsize = 15) plt.autoscale(enable = True, tight = True) # or for specific axis axis='x'
+plt.title('Boeing 252-day Moving Average', fontsize = 20) 
+plt.xlabel('Time Step', fontsize = 15)
+plt.ylabel('Adjusted Closing Price', fontsize = 15) 
+plt.autoscale(enable = True, tight = True) # or for specific axis axis='x'
 plt.legend(loc = "upper left", fontsize = 15)
 plt.show()
 
